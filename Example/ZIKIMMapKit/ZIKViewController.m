@@ -7,7 +7,7 @@
 //
 
 #import "ZIKViewController.h"
-
+#import "ZIKMapTextViewController.h"
 @interface ZIKViewController ()
 
 @end
@@ -18,7 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"地图模块首页";
 }
+
+#pragma mark - 地图文字
+- (IBAction)mapTextClick:(UIButton *)sender {
+    ZIKMapTextViewController *mapText =  [[ZIKMapTextViewController alloc] init];
+    [self.navigationController pushViewController:mapText animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -1,0 +1,19 @@
+PODS:
+  - MJRefresh (1.4.7)
+  - ZIKIMMapKit (0.1.0):
+    - MJRefresh (~> 1.4.6)
+
+DEPENDENCIES:
+  - ZIKIMMapKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZIKIMMapKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  ZIKIMMapKit: 031a8ade62296fec47b76a31241ae63fd99b3562
+
+PODFILE CHECKSUM: 7e2f0b137c7639217aabfcb2d6bd5e194c5bec5e
+
+COCOAPODS: 1.1.1

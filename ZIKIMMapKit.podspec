@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZIKIMMapKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZIKIMMapKit.'
+  s.summary          = '地图组件(使用高德地图).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/811528603@qq.com/ZIKIMMapKit'
+  s.homepage         = 'https://github.com/ZIK-IM-Modularization/ZIKIMMapKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '811528603@qq.com' => '811528603@qq.com' }
-  s.source           = { :git => 'https://github.com/811528603@qq.com/ZIKIMMapKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZIK-IM-Modularization/ZIKIMMapKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZIKIMMapKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZIKIMMapKit' => ['ZIKIMMapKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ZIKIMMapKit' => ['ZIKIMMapKit/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh', '~> 1.4.6'
 end
