@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+
+typedef void(^SelectLocationSuccessBlock)(NSDictionary *locationDic);
 
 @interface ZIKMapTextViewController : UIViewController
-
+@property (nonatomic,copy  )   SelectLocationSuccessBlock   successBlock;
+@property (nonatomic, copy)    NSString *mapKey;//高德地图key
 @end

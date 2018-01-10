@@ -26,7 +26,16 @@
   },
   "dependencies": {
     "MJRefresh": [
-      "~> 1.4.6"
+
+    ],
+    "AMapLocation-NO-IDFA": [
+
+    ],
+    "AMapSearch-NO-IDFA": [
+
+    ],
+    "AMap2DMap-NO-IDFA": [
+
     ]
   }
 }

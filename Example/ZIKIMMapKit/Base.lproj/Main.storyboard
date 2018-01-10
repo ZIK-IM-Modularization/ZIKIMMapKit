@@ -38,11 +38,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDm-2g-h7V">
-                                <rect key="frame" x="16" y="84" width="77" height="30"/>
+                                <rect key="frame" x="16" y="72" width="185" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="地图-文字"/>
                                 <connections>
                                     <action selector="mapTextClick:" destination="whP-gf-Uak" eventType="touchUpInside" id="L2K-oM-oBX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLA-BU-CEg">
+                                <rect key="frame" x="35" y="152" width="166" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="地图-半地图半文字"/>
+                                <connections>
+                                    <action selector="halfMapClick:" destination="whP-gf-Uak" eventType="touchUpInside" id="vFQ-NI-BEK"/>
                                 </connections>
                             </button>
                         </subviews>

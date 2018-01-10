@@ -1,6 +1,0 @@
-framework module ZIKIMMapKit {
-  umbrella header "ZIKIMMapKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

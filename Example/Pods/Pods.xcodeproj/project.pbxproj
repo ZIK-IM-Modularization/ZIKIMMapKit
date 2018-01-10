@@ -7,270 +7,539 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042CE6A8CECD6F405C6ED0BD7F302CE1 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		071B049F659B38053E77AA87E7873B60 /* Pods-ZIKIMMapKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4E84E72B7D4918C967E903CC97A395 /* Pods-ZIKIMMapKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		144B08F33CAAB244B9826C9D2BB6348A /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A478FE7F1AA5226B976C3768CD7C888 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EDEC9324529ADBDFDD6ACEEB0714A1B /* Pods-ZIKIMMapKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9134365A6E6BDEC09825E722A69F1F /* Pods-ZIKIMMapKit_Example-dummy.m */; };
-		21755275FFF60A914A6361FE3EFEC456 /* ZIKMapTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F649CD76BEF66A7A79FF5FB3062439 /* ZIKMapTextViewController.m */; };
-		241C440B89CB8EDD564EA0E4C3AB026A /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */; };
-		25DAA09FEEA604D3369E88900AC5B1B9 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */; };
-		2A9E73AE267F990EDAA6B10833E9AA05 /* ZIKMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 452EB0C2E8A62F9CC1F0F77C0E53CFFF /* ZIKMap.bundle */; };
-		3E25E6A71FC8735E908249534F3F2650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
-		4203FD3ED3392C1675F8636827348762 /* ZIKIMMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5960E74732D454031348BEF80EBAA315 /* ZIKIMMapKit.bundle */; };
-		479A36E661A786791683FA8777508E6A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523FCD23300B5BFF76E80C1403E0F637 /* ZIKIMMapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2768E86175D3C9835D9AB06699052F18 /* ZIKIMMapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52868D47B14D405B8C41BE4F03A6950D /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C0D5442F01D75CAE28C370341D2C68 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */; };
-		56C35D4BCB48F6AC1073D1D4EA6727AE /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */; };
-		60EE825D344F965353ADAFADF19A3F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
-		671518250B4499C14F09DF60145AB28A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
-		6C391F362C71ED493BB28CEF21763F45 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796E6B58A39DC61B26E16A029D136477 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E9027BC84A08C58E43F4D095D72E739 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E5440CACCC9EFF5FDAAECE29FD1191A /* Pods-ZIKIMMapKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82350A3D08C91A5A209D856DFE39AB70 /* Pods-ZIKIMMapKit_Tests-dummy.m */; };
-		9817164E9F6C5B766CFE01FFB67A1EFF /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */; };
-		A0769460965CCFD4961C85D8608E333C /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A11882D5320828152C51457CA8E21A18 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */; };
-		ABF4B5E65CB3ED77008D8896E42AEC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
-		B55C101D928BD4836759BB3047A21CB0 /* MJRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */; };
-		B600DF7051E2B2B5B85076F0B35B90E3 /* Pods-ZIKIMMapKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3878782A33C65ACEBD8C3B36E8CF2B /* Pods-ZIKIMMapKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7650A4A12BDCA18CCAE2E41496E0C0D /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */; };
-		B8E5E6E4218659D0FB8AAC854CC7D259 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */; };
-		C109CF10FBC80A6845D290B66B6FCFD7 /* ZIKIMMapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24709C4029030159C7A37208C4E5193 /* ZIKIMMapKit-dummy.m */; };
-		C5E35FEBAF7E4605D61E954C3E02A3AA /* MJRefreshLegendHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9482BEEC7775A47CFD327C20BCF0699 /* MJRefreshLegendHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */; };
-		CB0D0DF431CA701AEBF9E1187095227E /* MJRefreshGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE8AF2F110226F0CBEE6E3B8F50555E1 /* ZIKMapTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AB488D8C88EC6F31CB3F90D4F3CB98 /* ZIKMapTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D391F2926932C547B22E70C9F6692275 /* MJRefreshLegendFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */; };
-		E4517A149F29B4CF25CFA9C13D4876A9 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */; };
-		EAF4E573258633FF8E2056F9A057C61B /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4D7884C67EF63CED88993EAF2E1F9D /* MJRefreshLegendFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC7FC12D0FCB5A33017B70D92E095BF8 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */; };
-		FE0A215B275321CA6F1C901060906CAA /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */; };
+		0A3A685BD9A56E789E9EA83A1FECBBAE /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC48B895738DDAB7F3FB00274C2E8A5C /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160E962CE69AF99AE0E349571A381C9A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 395227A0E2D41A64595B62902B68D6C5 /* MJRefreshFooter.m */; };
+		1615F44139A14CEC7C82D546361B0609 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = E924D7E88B678F2EDD2E4BD1805965EE /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186ECA7F2B213C7A11A8F871EFD917CE /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D021DFD0FB5968B6F0DB8FBDBC541D /* MJRefreshBackGifFooter.m */; };
+		1E2E1AF6F9351E4FEF7F4D58C242A775 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEDB54EA15FF4569D5F3927A90E079E /* MJRefreshGifHeader.m */; };
+		1E38527C36D3C3F2D2EEC3CD45533510 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C360E50B15E75E425626EB5832C3BC79 /* MJRefreshAutoStateFooter.m */; };
+		216E9EAAE8A85894084912972A6D9654 /* ZIKMapTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B95D8B4FA8B731926C426FF2FA29BE2 /* ZIKMapTextViewController.m */; };
+		268DA924AEA51CCBE7D187332E4841A5 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF7DC7903BA66CE82F4E43F6699B6B /* MJRefreshBackNormalFooter.m */; };
+		2A4F2CC352F8A6D9D40C04BE890957EB /* Pods-ZIKIMMapKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BD669AC90B108998EBA23CC8DDE72E /* Pods-ZIKIMMapKit_Example-dummy.m */; };
+		2AC677C7D32F72030B81CA00F24F65FD /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BCEB5B92731F09CEA2F7A393FE207F /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B20A7A457F69EA4CFEC2DB9CFB37FC9 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C74C55CBE917E84CC7CA15D77E07A7 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341A4BCFB7B1E78548ECD00869FE22B3 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA21F6B85B77E3C00C3B31643172793A /* MJRefreshStateHeader.m */; };
+		41251CEE7BDE32D2D9CA23A095E29E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		45568698EB9833DE1416602ABFBB18AE /* Pods-ZIKIMMapKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 518940991FD46D889C8DF0232BA74B39 /* Pods-ZIKIMMapKit_Tests-dummy.m */; };
+		46D931760B10C6FBE8B29D06AAC94228 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5FD27A5E46840D88F4CA95B184EFD /* MJRefreshBackStateFooter.m */; };
+		4982F6A38E149A01137311B533591DD5 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D5EE777C0EC933E8FA673EF8BBE2A8 /* UIScrollView+MJRefresh.m */; };
+		4A8C60E241C6EFE6FF5F670F35285431 /* ZIKMapTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C849D0161ADA4C51E5E683B5C61AB7 /* ZIKMapTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D12AC4D83DB34A425A171DD383B8134 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FB64876FB43D98BABB5B7D0C7D440 /* MJRefreshComponent.m */; };
+		5000B5AA92F7956AFA56581E82A81407 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C68203EB209D754418E15D726BBE0C /* MJRefreshAutoNormalFooter.m */; };
+		52BDB715C9F3049948DE848BAA2C06ED /* ZIKMapHalfTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F218EF55AB6EE0169F538CBA08A29064 /* ZIKMapHalfTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		597CEE76562EB4D948504B07655C54D6 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 787252C15B29ABBF98CBF5B3652CFEBF /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59CF9E95314C2B98CD4E53BA7FE282E4 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4899BECD19E8B714D703D6329841461A /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62FD17105A0515480570B5B6C182EE48 /* loc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FDED8D83133496E0B8D5672DD8179FD /* loc@2x.png */; };
+		635F9EFF4A131A00C8F9BE720E78D446 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A463669B4580E9F8CF23E47BE635670 /* MJRefreshAutoFooter.m */; };
+		6B8E59D8C26F34D72EB14F5769D0DFEC /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CB16A8AB2959402E62DDCB51DC22E /* MJRefreshNormalHeader.m */; };
+		743C70732D10EA2CD6294D346BBE9E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B2ED9E571E4E51168F7157F2EAE6199 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B33E649A7178824FF1891E42168AA98 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE298FC4680B93B3A466613E565BA0B /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6AE4851C6B25C34D6D470E8B2146C1 /* UIView+MJExtension.m */; };
+		85BBFB5F0008B8304BF840AA6449C61F /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8850D33ABA9D670F420243C2A8BE31A /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88290D5C90C12F48F09E6AC463737F1F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D6802A65BF8A92E7DFEE4AAB1F1143C2 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F67EA6E3A8336BA94ABB78B103FACFB /* redPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 47173E67EB63BC29DB00847F824B882E /* redPin.png */; };
+		925EBB6CDAA2E17791E1DDCDA62A3375 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAB3B4E35643114AAAD550132FBC7A8 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F90F972DFDFBC3E012F069A6E24C33 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CE07E99F8180336ED20E9905DF731D38 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99364D96200D03FC3229E6A956E10ADB /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7EEF5F80844147E45ACDD54BA1E5ED /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDC888AA9FE29CD96DCB574AF125142 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B19639002FE9F51DA6D3A7EFEE71B944 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F06B13BAA0376EAD4E125DA78456B3B /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6261C33543A8ECA7442C9A707642A451 /* MJRefreshHeader.m */; };
+		A67059B6451EE4D4C8827F52621E54A3 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ACD8E5A1EF3EC395BB7C88926AEFF3 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD69BFB0A0F3F7B7E162E410A67CF05 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D8601D5D6C643792EE68370AE0B4F4 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EAF278902A9B25808126F504317845 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9F476A4BF81F18CC1DF477BE38DD3 /* NSBundle+MJRefresh.m */; };
+		BDA7650B1BB999519160ABFE5E089CD3 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B92E216CC7810607447F0AE09B359 /* MJRefreshBackFooter.m */; };
+		C102F588101F11B9F5C331AEEACEA848 /* redPin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B58A56DD4EF36B4E23A646D9CE7F3E /* redPin@3x.png */; };
+		C16FDBA2BC10E28B8D59DE5CCF4758EC /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B65FD272219BA3090BFA3D89445179 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4E2B35BD416945ABCE8AA148A530132 /* ZIKMapTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C726EC73121C4996FC1109AC4871 /* ZIKMapTextTableViewCell.m */; };
+		C64ADA912DD6E167B4E3C6DB870667C8 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5AEBA2504ABE9CA04069556113DEF0 /* MJRefresh-dummy.m */; };
+		CEB861F11C8FB6F6817582C23391B227 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 64A95CE1C0E8CE5B5D66BE9A13C0593C /* en.lproj */; };
+		D747B37966D809BA7140D0F57D2F2B37 /* ZIKMapHalfTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE6BFF4A88C9D8B6F1AAF1F251F6F8 /* ZIKMapHalfTextViewController.m */; };
+		D91A44E187477241B893D258E3F67A58 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC81CECB72C4080AD76B7978DE836E4 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECBE85E1B67EEE35A4AA8E9AE902996 /* redPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70B8C4705875CD658F7BCC056BAFB0C /* redPin@2x.png */; };
+		E7FA008E96CF99E93D2F596722662B83 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E38CACC1E8296B31D87C87391022554E /* MJRefreshAutoGifFooter.m */; };
+		E88CF4B87AA93460880407B983C22156 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 45255D08698486FF06EFEE01C2D75C21 /* zh-Hans.lproj */; };
+		ED89F1A48BA44D203A2C4B9C6F53AC0B /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B65ED8F56B6A899D41496013C039F92E /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF1430B7BDC0663F9A9AD31AD3D0DE54 /* ZIKMapTextTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 65638B39290106B6592AAB322B2269A8 /* ZIKMapTextTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53754CAAB10BB3C954169DE35007A65 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 603FE0F81AD2F0A1834C10375A0710EB /* UIScrollView+MJExtension.m */; };
+		F71530448B7A282746853F4718DCA267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F88580E07538A44A13193CA98E37ADCA /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EDB296AE3A1C189CC0EC6FB0941196 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA275ACB522A23A14B57C8E68BAAE9EE /* ZIKIMMapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55CDB4BB2C6D6505C543E8025825A1E /* ZIKIMMapKit-dummy.m */; };
+		FC091A4266DB8F2CED4F0629F8AE59F2 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB1B22BA7CE3ED07F35333914C247C /* MJRefreshConst.m */; };
+		FE9D261988A0E6B2C1D74A8311F0C58F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FF1B68BB2C26B49D0DB408D77BF73D8C /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B9E1A8D6C12996E43F0008AEABFCCB /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14C80A541457055DEC38706A029F9504 /* PBXContainerItemProxy */ = {
+		7F1D5FE65948197E8B44B8AC858870C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62BD4396E233E25C5D5A7A69DF027590;
+			remoteGlobalIDString = 04CF549EBEEE7BC87AEAE35397184D94;
 			remoteInfo = MJRefresh;
 		};
-		35D570DE446F876B0700CE216241099C /* PBXContainerItemProxy */ = {
+		B6CCA570CF0B5CBCABF9D46BA4F60601 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB7E017076DF3D918E08454F37DB4AF3;
-			remoteInfo = "ZIKIMMapKit-ZIKIMMapKit";
+			remoteGlobalIDString = 04CF549EBEEE7BC87AEAE35397184D94;
+			remoteInfo = MJRefresh;
 		};
-		8BAA0A626F2EE3981EA24491C18C4925 /* PBXContainerItemProxy */ = {
+		E176E3D5EA84846D283293C44DE9B7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75ABD56C152800D99D6A58DC67C8935B;
+			remoteGlobalIDString = 5218372D371D083FAB49224AF30EBC66;
 			remoteInfo = ZIKIMMapKit;
 		};
-		A2A5DDC0EAAB4D227453A69C881AAFAE /* PBXContainerItemProxy */ = {
+		F3F460D4E7063ACE6B281FF39B9B6091 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62BD4396E233E25C5D5A7A69DF027590;
-			remoteInfo = MJRefresh;
+			remoteGlobalIDString = 03A336F54D6F3AF0DFAFBEF72D11489F;
+			remoteInfo = "ZIKIMMapKit-ZIKIMMapKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.h; sourceTree = "<group>"; };
-		040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.m; sourceTree = "<group>"; };
-		0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		086BF87F0DEC2AD14CC245A54CF2FC87 /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.h; sourceTree = "<group>"; };
-		112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		119AD94C5072ADFE7F3CBDF11FF1726E /* Pods-ZIKIMMapKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		12D16318BD942B6A87146B1BAEC1D135 /* Pods-ZIKIMMapKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZIKIMMapKit_Tests.modulemap"; sourceTree = "<group>"; };
-		19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		1FD939C6F69CFC21AE80F138C71B08F1 /* ResourceBundle-ZIKIMMapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZIKIMMapKit-Info.plist"; sourceTree = "<group>"; };
-		2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2768E86175D3C9835D9AB06699052F18 /* ZIKIMMapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKIMMapKit-umbrella.h"; sourceTree = "<group>"; };
-		2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.m; sourceTree = "<group>"; };
-		2FDCC44A86B2B0865A2C286B1D531B1E /* ZIKIMMapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKIMMapKit-prefix.pch"; sourceTree = "<group>"; };
-		30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
-		321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
-		409E48AAB339A20396EBE35F08E60BF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		452EB0C2E8A62F9CC1F0F77C0E53CFFF /* ZIKMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ZIKMap.bundle; sourceTree = "<group>"; };
-		4AC6F2C10DA3B618968D1854F23AE335 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F1F139F3726A40865F7BF5BD430AF59 /* Pods-ZIKIMMapKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKIMMapKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		521AA0FA1FD426953708B6775829FD37 /* Pods-ZIKIMMapKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Example-resources.sh"; sourceTree = "<group>"; };
-		5960E74732D454031348BEF80EBAA315 /* ZIKIMMapKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZIKIMMapKit.bundle; path = ZIKIMMapKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.h; sourceTree = "<group>"; };
-		5C2C4A509D689EEF136F2D4303D437E1 /* Pods-ZIKIMMapKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		5EB80A72DD26921302799888028BE5BC /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6316C89A142360CC40DAACE16A31C1AE /* Pods-ZIKIMMapKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		676B7DFF6D96663AD8B065DC065958F2 /* Pods-ZIKIMMapKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZIKIMMapKit_Example.modulemap"; sourceTree = "<group>"; };
-		685B5CE26AF4A205039DD7B4F67262A1 /* ZIKIMMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIKIMMapKit.framework; path = ZIKIMMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D3878782A33C65ACEBD8C3B36E8CF2B /* Pods-ZIKIMMapKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKIMMapKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		800DE33A4020C83F54878F39961E1E55 /* Pods-ZIKIMMapKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKIMMapKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82350A3D08C91A5A209D856DFE39AB70 /* Pods-ZIKIMMapKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKIMMapKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		83316CE7C863EBD615DE407C37027DB8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		85ED2160C36C741E0C243E7EF0D8ED71 /* ZIKIMMapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZIKIMMapKit.modulemap; sourceTree = "<group>"; };
-		865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
-		8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		00363B49D4085031394AAE0D05323842 /* Pods-ZIKIMMapKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		037C65C1F9C642E2540E4348A21F121A /* Pods-ZIKIMMapKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKIMMapKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0760159838FED706D9BEDE904F6ABAA0 /* Pods-ZIKIMMapKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKIMMapKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07A896291687B240A9C8CBAF0C43051F /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
+		07B58A56DD4EF36B4E23A646D9CE7F3E /* redPin@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "redPin@3x.png"; sourceTree = "<group>"; };
+		0C6FB64876FB43D98BABB5B7D0C7D440 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		11C849D0161ADA4C51E5E683B5C61AB7 /* ZIKMapTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZIKMapTextViewController.h; sourceTree = "<group>"; };
+		11DB629DBB7E3E617CF0E909BF409F8F /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
+		135E3EFBDC3496BF80916F63B1DCC2AF /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
+		14F3C659E4D8DED17021B67F2D6EEEC0 /* Pods-ZIKIMMapKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKIMMapKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15F578A3496A823919619A403B1F7D73 /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
+		17C1F944423531D2B4298717136E8750 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
+		1A7C8CD474339ABE908E3536669E37F9 /* MAPolylineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineView.h; path = MAMapKit.framework/Headers/MAPolylineView.h; sourceTree = "<group>"; };
+		1E1DD624397B2184E7057E9594B65980 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
+		1E5D07DE4CC4C8601D14C658CE169835 /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
+		20287F34FAC6A6DDDF30E76D346A613E /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationCommonObj.h; path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h; sourceTree = "<group>"; };
+		235A94998E4E04F10D92EACF0C3F4A74 /* Pods-ZIKIMMapKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKIMMapKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29A5EEA467599E55E97199EC854CCA27 /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
+		2B1B980044998B7050196E8E29491C6D /* AMapLocationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationKit.h; path = AMapLocationKit.framework/Headers/AMapLocationKit.h; sourceTree = "<group>"; };
+		2E738E9273DAD1FBE1A3BD9DE2656594 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
+		2FDED8D83133496E0B8D5672DD8179FD /* loc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loc@2x.png"; sourceTree = "<group>"; };
+		31ACD8E5A1EF3EC395BB7C88926AEFF3 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		32EDB296AE3A1C189CC0EC6FB0941196 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		33D5EE777C0EC933E8FA673EF8BBE2A8 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		3676EF4ACA9C5D16AA9CB02B7D030CA8 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		38269F27B8D9FC9759C610931AE17A97 /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
+		382CB16A8AB2959402E62DDCB51DC22E /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		395227A0E2D41A64595B62902B68D6C5 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		3A7F979B5EA7DC60057A1D426E61E816 /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
+		3CE5FD27A5E46840D88F4CA95B184EFD /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		3D8D61A34C537DA29CDC79D9C2A45AE9 /* AMapLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationVersion.h; path = AMapLocationKit.framework/Headers/AMapLocationVersion.h; sourceTree = "<group>"; };
+		3E11AF58916963783980E76E62C79DD8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40918527C6F1D8E491F0357EEB0323E9 /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
+		40FF7DC7903BA66CE82F4E43F6699B6B /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKIMMapKit.xcconfig; sourceTree = "<group>"; };
+		45255D08698486FF06EFEE01C2D75C21 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		458B0A7DF15C97E79C6C97A240F9CF88 /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
+		45B21D65C0C3FF92650F3AA293BE6D0C /* MATileOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayView.h; path = MAMapKit.framework/Headers/MATileOverlayView.h; sourceTree = "<group>"; };
+		47173E67EB63BC29DB00847F824B882E /* redPin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = redPin.png; sourceTree = "<group>"; };
+		4899BECD19E8B714D703D6329841461A /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		4A463669B4580E9F8CF23E47BE635670 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		4A826BAAEBC1B83D90E6520B18773F0D /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
+		4D4741E253C04FA7BC467DC88EE3E36E /* ZIKIMMapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKIMMapKit-prefix.pch"; sourceTree = "<group>"; };
+		4DAEB11DE6C0055E069EB3D7D1634066 /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
+		4FD6C726EC73121C4996FC1109AC4871 /* ZIKMapTextTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZIKMapTextTableViewCell.m; sourceTree = "<group>"; };
+		518940991FD46D889C8DF0232BA74B39 /* Pods-ZIKIMMapKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKIMMapKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		54C7675C9C1915BB36C56DECE3C2639D /* AMapGeoFenceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceError.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceError.h; sourceTree = "<group>"; };
+		55FA794D29A1C2BB44D9D77C27ADDC6B /* MAGroundOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayView.h; path = MAMapKit.framework/Headers/MAGroundOverlayView.h; sourceTree = "<group>"; };
+		5B18981F5A78C01F06D3E5D3F793EF5B /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		5B499B073A81BB05D7805FC2B7262AE7 /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
+		603FE0F81AD2F0A1834C10375A0710EB /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		61AA1B5AFE53C8C299FF91F5E8B69357 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
+		61C74C55CBE917E84CC7CA15D77E07A7 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		6261C33543A8ECA7442C9A707642A451 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		636093CC8A67933CD4EC7737384BDBA1 /* Pods-ZIKIMMapKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64A95CE1C0E8CE5B5D66BE9A13C0593C /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		651338E6A3B122501CDECA60CC5ACDB4 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		65638B39290106B6592AAB322B2269A8 /* ZIKMapTextTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZIKMapTextTableViewCell.h; sourceTree = "<group>"; };
+		656938FFF85ECA0C909C5B703EDB9D14 /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceRegionObj.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
+		65C68203EB209D754418E15D726BBE0C /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		65EE43D26B577AB5572647AF1585AB8D /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		686712B438B884062C37D12F807DB417 /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
+		6AA552794307789718539128B23E078C /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
+		6C136229F10C9B4DF5EC961A33ADB1CF /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
+		6CAA5399C43F85095F421251353DC065 /* MAOverlayPathView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathView.h; path = MAMapKit.framework/Headers/MAOverlayPathView.h; sourceTree = "<group>"; };
+		6D194E4368FC6BA3DBE498082FB89A79 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
+		743386B44840B5DF08D28AE938A29041 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
+		75246FBC6EEFF25E0453A7FCE47F1AF0 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75729EE2B871A42DA0DD90CB1D783AE4 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		787252C15B29ABBF98CBF5B3652CFEBF /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		79EB299C26E2B4E5A8D233D145D17D7D /* Pods-ZIKIMMapKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7A7B92E216CC7810607447F0AE09B359 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		7B95D8B4FA8B731926C426FF2FA29BE2 /* ZIKMapTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZIKMapTextViewController.m; sourceTree = "<group>"; };
+		80BD669AC90B108998EBA23CC8DDE72E /* Pods-ZIKIMMapKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKIMMapKit_Example-dummy.m"; sourceTree = "<group>"; };
+		83190F0C9AA719CDA5CBA04097C97E49 /* Pods-ZIKIMMapKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		858F7A824DF075153688F17C113E2286 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
+		89D8601D5D6C643792EE68370AE0B4F4 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		89FCA89DB7ADA24E0145207C40B994A7 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationRegionObj.h; path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h; sourceTree = "<group>"; };
+		8AC81CECB72C4080AD76B7978DE836E4 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		8B33E649A7178824FF1891E42168AA98 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		8CC90FAFE78E10593D8AA422962C4EBE /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
+		8D50043F09474AB400F30AF41B373FAB /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D74AE0373C496B95425A55157CD6D09 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8DBB1B22BA7CE3ED07F35333914C247C /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		8FDF55D8C5A4A77E5BBBDF2650FB796D /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
+		93019D4C5F1650A88D5F6253B5FF7DCF /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		9A908DB76D24B68FAF0D37B1559FF87A /* Pods-ZIKIMMapKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9C4E84E72B7D4918C967E903CC97A395 /* Pods-ZIKIMMapKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKIMMapKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A649E7576AB788DEB5B9E81490F431E4 /* Pods_ZIKIMMapKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZIKIMMapKit_Example.framework; path = "Pods-ZIKIMMapKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		AA9134365A6E6BDEC09825E722A69F1F /* Pods-ZIKIMMapKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKIMMapKit_Example-dummy.m"; sourceTree = "<group>"; };
-		AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.m; sourceTree = "<group>"; };
-		B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		B6B8541DA1A07E5DD0331E35C3BB3EB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.m; sourceTree = "<group>"; };
-		BA829D3CACE8FA04D5B02616BD80F978 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
-		BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.h; sourceTree = "<group>"; };
-		C421F2B079FCD1A3B004EA0F0D7DF03B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
-		C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.h; sourceTree = "<group>"; };
-		C770611CAE6B45461CEFDDE12A0EE99D /* Pods-ZIKIMMapKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKIMMapKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.m; sourceTree = "<group>"; };
-		D24709C4029030159C7A37208C4E5193 /* ZIKIMMapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKIMMapKit-dummy.m"; sourceTree = "<group>"; };
-		E057EF70C707607BE3B0D95B33EBD452 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKIMMapKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.h; sourceTree = "<group>"; };
-		E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		E3F649CD76BEF66A7A79FF5FB3062439 /* ZIKMapTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZIKMapTextViewController.m; sourceTree = "<group>"; };
-		E5AB488D8C88EC6F31CB3F90D4F3CB98 /* ZIKMapTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZIKMapTextViewController.h; sourceTree = "<group>"; };
-		E73E4F754EFC99FD8F862E28E1E14CEB /* Pods_ZIKIMMapKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZIKIMMapKit_Tests.framework; path = "Pods-ZIKIMMapKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		EE931EA2F3634FB6755345258161080B /* Pods-ZIKIMMapKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKIMMapKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.m; sourceTree = "<group>"; };
-		F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKIMMapKit.xcconfig; sourceTree = "<group>"; };
-		FC579B3D6FEEF040AA61CB26AE06F7E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98811509766A47F4E34FDAE9E73875BF /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
+		9F7EEF5F80844147E45ACDD54BA1E5ED /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		A1BCEB5B92731F09CEA2F7A393FE207F /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		A27DAA35610C8F0A342DE8B5D1112F6B /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
+		A549C2AD962C58D35B8B71A61482CA61 /* MAOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayView.h; path = MAMapKit.framework/Headers/MAOverlayView.h; sourceTree = "<group>"; };
+		A786F90E2E0FF4A29A37EEFF159D9451 /* libZIKIMMapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZIKIMMapKit.a; path = libZIKIMMapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DE6BFF4A88C9D8B6F1AAF1F251F6F8 /* ZIKMapHalfTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZIKMapHalfTextViewController.m; sourceTree = "<group>"; };
+		AB6AE4851C6B25C34D6D470E8B2146C1 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		AC011438689DDEBE185E46E4AF58073A /* libPods-ZIKIMMapKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZIKIMMapKit_Example.a"; path = "libPods-ZIKIMMapKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC36F843EB42BCC690EB78E4BF0515D2 /* ResourceBundle-ZIKIMMapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZIKIMMapKit-Info.plist"; sourceTree = "<group>"; };
+		AE10B4D59D0704EF31B5F9A9B2D98ADE /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
+		AF3C632E6D759AF7BF658F27809D2BCD /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
+		AFE419155F4C6D1B9D096469354EAC3A /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
+		B19639002FE9F51DA6D3A7EFEE71B944 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		B3A9F476A4BF81F18CC1DF477BE38DD3 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		B65ED8F56B6A899D41496013C039F92E /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		B76CD82DDF61ECF715721666D267B52B /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		B7A5808B7E7A6976226E0E4EC623FC2D /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
+		BB3061495D035B930A9D0F23E04B48A7 /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceManager.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h; sourceTree = "<group>"; };
+		BF5AEBA2504ABE9CA04069556113DEF0 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		BFEDB54EA15FF4569D5F3927A90E079E /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		C360E50B15E75E425626EB5832C3BC79 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		C3A40391BF2888D575F4C239AB5642AE /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		C4B9E1A8D6C12996E43F0008AEABFCCB /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		C55CDB4BB2C6D6505C543E8025825A1E /* ZIKIMMapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKIMMapKit-dummy.m"; sourceTree = "<group>"; };
+		C5FF2F9CBE020FA332D2E7D13E022AB3 /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
+		C7812E164F789FE8C47150F217130373 /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
+		C7F372C403112DE91B10E903C7C2C032 /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
+		CE07E99F8180336ED20E9905DF731D38 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		CEAB3B4E35643114AAAD550132FBC7A8 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		CFA6F273CD9830726C6541ABBD445DCE /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
+		D31D4A51E8131AA8544C9477D165CF3F /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
+		D6802A65BF8A92E7DFEE4AAB1F1143C2 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		D6C75BEC48403411B6250F49985ED5BA /* MACircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleView.h; path = MAMapKit.framework/Headers/MACircleView.h; sourceTree = "<group>"; };
+		D95DE19A4DE521EA3D5DEFB5E20B8197 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		DA21F6B85B77E3C00C3B31643172793A /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		E1B65FD272219BA3090BFA3D89445179 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		E239FE092C575F74BE03DB79DCD4865F /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
+		E38CACC1E8296B31D87C87391022554E /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		E70B8C4705875CD658F7BCC056BAFB0C /* redPin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "redPin@2x.png"; sourceTree = "<group>"; };
+		E79843ECA063ADD069E3B952A7747EB9 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		E924D7E88B678F2EDD2E4BD1805965EE /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		EB48B577A2F0823B19F90254B40AEFD7 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		EC09DEF84CF49F2B587446055BA3ED81 /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+		EC48B895738DDAB7F3FB00274C2E8A5C /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		EE05AC1E9CD5BCBF5AAABC235015497F /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
+		EFF99934C795FCBE899F6E83484B503E /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		F218EF55AB6EE0169F538CBA08A29064 /* ZIKMapHalfTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZIKMapHalfTextViewController.h; sourceTree = "<group>"; };
+		F6D021DFD0FB5968B6F0DB8FBDBC541D /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		F71BD1961F1215714DCECCAFAB615E24 /* libPods-ZIKIMMapKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZIKIMMapKit_Tests.a"; path = "libPods-ZIKIMMapKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B8530168ABE41B6D59F4E414BA8570 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
+		F8850D33ABA9D670F420243C2A8BE31A /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		FAE50AB6881EBDA515F738F0530E19B8 /* Pods-ZIKIMMapKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKIMMapKit_Example-resources.sh"; sourceTree = "<group>"; };
+		FB76CD538F73769B6711CD3EF002171F /* MAPolygonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonView.h; path = MAMapKit.framework/Headers/MAPolygonView.h; sourceTree = "<group>"; };
+		FEC69DD7D6A528B12AA624434BFA92AE /* ZIKIMMapKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZIKIMMapKit.bundle; path = ZIKIMMapKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC7655C3EF04655551E0303A91BF559 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		390DC7435BA643342B6323CE58012903 /* Frameworks */ = {
+		4E5DC8C2744828C26D585DCDCD4EF1DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF4B5E65CB3ED77008D8896E42AEC3F /* Foundation.framework in Frameworks */,
-				25DAA09FEEA604D3369E88900AC5B1B9 /* MJRefresh.framework in Frameworks */,
+				41251CEE7BDE32D2D9CA23A095E29E5B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FEAF9C70A6B31C2EE2588AD3C5C62E5 /* Frameworks */ = {
+		54144417DE3F91AB8B585BEA05927246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E25E6A71FC8735E908249534F3F2650 /* Foundation.framework in Frameworks */,
+				743C70732D10EA2CD6294D346BBE9E7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3B8DF5E7F0130E98EFFDFE2FDEAAAB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				671518250B4499C14F09DF60145AB28A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8F5D9578145C501B710B4FBED0D324A /* Frameworks */ = {
+		82A3AED298CE526D84E37BB24D800A17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C29877CB761B8EEBF73037D29AE262FB /* Frameworks */ = {
+		8CFE654FAF344B5E29FFB5ABD875D241 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EE825D344F965353ADAFADF19A3F80 /* Foundation.framework in Frameworks */,
+				FE9D261988A0E6B2C1D74A8311F0C58F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FFA9BD201F7FCE2311B14D2E5AA8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71530448B7A282746853F4718DCA267 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18B93E3F702C853A8BB9A2C1B3B885B1 /* Resources */ = {
+		0CEF20F4B856F8EBE15FF58DC246924D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4674CF71A7948A184531DB6744F131A2 /* ZIKIMMapKit */,
+				B76CD82DDF61ECF715721666D267B52B /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14013C503848ACD16ADBC22FB0634DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A40391BF2888D575F4C239AB5642AE /* AMapLocationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2074953C159750AD19E51611C8CF440A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3676EF4ACA9C5D16AA9CB02B7D030CA8 /* MJRefresh.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		4674CF71A7948A184531DB6744F131A2 /* ZIKIMMapKit */ = {
+		30197A50A90CA00AF94C0EE29FEE7A69 /* AMapFoundation-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				664D5A77056B99C1FA96AD293A8B289C /* Assets */,
+				98811509766A47F4E34FDAE9E73875BF /* AMapFoundationKit.h */,
+				651338E6A3B122501CDECA60CC5ACDB4 /* AMapFoundationVersion.h */,
+				AFE419155F4C6D1B9D096469354EAC3A /* AMapServices.h */,
+				1E5D07DE4CC4C8601D14C658CE169835 /* AMapURLSearch.h */,
+				EB48B577A2F0823B19F90254B40AEFD7 /* AMapURLSearchConfig.h */,
+				93019D4C5F1650A88D5F6253B5FF7DCF /* AMapURLSearchType.h */,
+				17C1F944423531D2B4298717136E8750 /* AMapUtility.h */,
+				0CEF20F4B856F8EBE15FF58DC246924D /* Frameworks */,
+			);
+			name = "AMapFoundation-NO-IDFA";
+			path = "AMapFoundation-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		317FC0EF7D4950FFB5289C8F0987C9E8 /* AMapSearch-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F979B5EA7DC60057A1D426E61E816 /* AMapCommonObj.h */,
+				EFF99934C795FCBE899F6E83484B503E /* AMapNearbySearchManager.h */,
+				EC09DEF84CF49F2B587446055BA3ED81 /* AMapNearbyUploadInfo.h */,
+				6C136229F10C9B4DF5EC961A33ADB1CF /* AMapSearchAPI.h */,
+				65EE43D26B577AB5572647AF1585AB8D /* AMapSearchError.h */,
+				C7F372C403112DE91B10E903C7C2C032 /* AMapSearchKit.h */,
+				11DB629DBB7E3E617CF0E909BF409F8F /* AMapSearchObj.h */,
+				F7B8530168ABE41B6D59F4E414BA8570 /* AMapSearchVersion.h */,
+				FF78C33F4318239378B4FA8EC7FE782C /* Frameworks */,
+			);
+			name = "AMapSearch-NO-IDFA";
+			path = "AMapSearch-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		3AEB2F594150493F10B9586876C0CD91 /* Pods-ZIKIMMapKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0760159838FED706D9BEDE904F6ABAA0 /* Pods-ZIKIMMapKit_Example-acknowledgements.markdown */,
+				14F3C659E4D8DED17021B67F2D6EEEC0 /* Pods-ZIKIMMapKit_Example-acknowledgements.plist */,
+				80BD669AC90B108998EBA23CC8DDE72E /* Pods-ZIKIMMapKit_Example-dummy.m */,
+				636093CC8A67933CD4EC7737384BDBA1 /* Pods-ZIKIMMapKit_Example-frameworks.sh */,
+				FAE50AB6881EBDA515F738F0530E19B8 /* Pods-ZIKIMMapKit_Example-resources.sh */,
+				00363B49D4085031394AAE0D05323842 /* Pods-ZIKIMMapKit_Example.debug.xcconfig */,
+				3E11AF58916963783980E76E62C79DD8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ZIKIMMapKit_Example";
+			path = "Target Support Files/Pods-ZIKIMMapKit_Example";
+			sourceTree = "<group>";
+		};
+		46C16DAAC2BDE09AB9F8E146221C8B58 /* ZIKIMMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6E1E5BFC160EF019D58ECAE3BA0AC32 /* Assets */,
 			);
 			name = ZIKIMMapKit;
 			path = ZIKIMMapKit;
 			sourceTree = "<group>";
 		};
-		58BDD956819F13156CCBE5906A6645C8 /* Pods-ZIKIMMapKit_Tests */ = {
+		4DE9083C26D01CE0A3235F169BB458DE /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				409E48AAB339A20396EBE35F08E60BF7 /* Info.plist */,
-				12D16318BD942B6A87146B1BAEC1D135 /* Pods-ZIKIMMapKit_Tests.modulemap */,
-				C770611CAE6B45461CEFDDE12A0EE99D /* Pods-ZIKIMMapKit_Tests-acknowledgements.markdown */,
-				EE931EA2F3634FB6755345258161080B /* Pods-ZIKIMMapKit_Tests-acknowledgements.plist */,
-				82350A3D08C91A5A209D856DFE39AB70 /* Pods-ZIKIMMapKit_Tests-dummy.m */,
-				119AD94C5072ADFE7F3CBDF11FF1726E /* Pods-ZIKIMMapKit_Tests-frameworks.sh */,
-				5C2C4A509D689EEF136F2D4303D437E1 /* Pods-ZIKIMMapKit_Tests-resources.sh */,
-				9C4E84E72B7D4918C967E903CC97A395 /* Pods-ZIKIMMapKit_Tests-umbrella.h */,
-				086BF87F0DEC2AD14CC245A54CF2FC87 /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */,
-				E057EF70C707607BE3B0D95B33EBD452 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */,
+				E924D7E88B678F2EDD2E4BD1805965EE /* MJRefresh.h */,
+				8B33E649A7178824FF1891E42168AA98 /* MJRefreshAutoFooter.h */,
+				4A463669B4580E9F8CF23E47BE635670 /* MJRefreshAutoFooter.m */,
+				EC48B895738DDAB7F3FB00274C2E8A5C /* MJRefreshAutoGifFooter.h */,
+				E38CACC1E8296B31D87C87391022554E /* MJRefreshAutoGifFooter.m */,
+				F8850D33ABA9D670F420243C2A8BE31A /* MJRefreshAutoNormalFooter.h */,
+				65C68203EB209D754418E15D726BBE0C /* MJRefreshAutoNormalFooter.m */,
+				C4B9E1A8D6C12996E43F0008AEABFCCB /* MJRefreshAutoStateFooter.h */,
+				C360E50B15E75E425626EB5832C3BC79 /* MJRefreshAutoStateFooter.m */,
+				89D8601D5D6C643792EE68370AE0B4F4 /* MJRefreshBackFooter.h */,
+				7A7B92E216CC7810607447F0AE09B359 /* MJRefreshBackFooter.m */,
+				B65ED8F56B6A899D41496013C039F92E /* MJRefreshBackGifFooter.h */,
+				F6D021DFD0FB5968B6F0DB8FBDBC541D /* MJRefreshBackGifFooter.m */,
+				E1B65FD272219BA3090BFA3D89445179 /* MJRefreshBackNormalFooter.h */,
+				40FF7DC7903BA66CE82F4E43F6699B6B /* MJRefreshBackNormalFooter.m */,
+				4899BECD19E8B714D703D6329841461A /* MJRefreshBackStateFooter.h */,
+				3CE5FD27A5E46840D88F4CA95B184EFD /* MJRefreshBackStateFooter.m */,
+				D6802A65BF8A92E7DFEE4AAB1F1143C2 /* MJRefreshComponent.h */,
+				0C6FB64876FB43D98BABB5B7D0C7D440 /* MJRefreshComponent.m */,
+				CEAB3B4E35643114AAAD550132FBC7A8 /* MJRefreshConst.h */,
+				8DBB1B22BA7CE3ED07F35333914C247C /* MJRefreshConst.m */,
+				9F7EEF5F80844147E45ACDD54BA1E5ED /* MJRefreshFooter.h */,
+				395227A0E2D41A64595B62902B68D6C5 /* MJRefreshFooter.m */,
+				CE07E99F8180336ED20E9905DF731D38 /* MJRefreshGifHeader.h */,
+				BFEDB54EA15FF4569D5F3927A90E079E /* MJRefreshGifHeader.m */,
+				A1BCEB5B92731F09CEA2F7A393FE207F /* MJRefreshHeader.h */,
+				6261C33543A8ECA7442C9A707642A451 /* MJRefreshHeader.m */,
+				B19639002FE9F51DA6D3A7EFEE71B944 /* MJRefreshNormalHeader.h */,
+				382CB16A8AB2959402E62DDCB51DC22E /* MJRefreshNormalHeader.m */,
+				787252C15B29ABBF98CBF5B3652CFEBF /* MJRefreshStateHeader.h */,
+				DA21F6B85B77E3C00C3B31643172793A /* MJRefreshStateHeader.m */,
+				61C74C55CBE917E84CC7CA15D77E07A7 /* NSBundle+MJRefresh.h */,
+				B3A9F476A4BF81F18CC1DF477BE38DD3 /* NSBundle+MJRefresh.m */,
+				31ACD8E5A1EF3EC395BB7C88926AEFF3 /* UIScrollView+MJExtension.h */,
+				603FE0F81AD2F0A1834C10375A0710EB /* UIScrollView+MJExtension.m */,
+				8AC81CECB72C4080AD76B7978DE836E4 /* UIScrollView+MJRefresh.h */,
+				33D5EE777C0EC933E8FA673EF8BBE2A8 /* UIScrollView+MJRefresh.m */,
+				32EDB296AE3A1C189CC0EC6FB0941196 /* UIView+MJExtension.h */,
+				AB6AE4851C6B25C34D6D470E8B2146C1 /* UIView+MJExtension.m */,
+				2074953C159750AD19E51611C8CF440A /* Resources */,
+				A63FD7B886967050890FCDD82CD5B0A2 /* Support Files */,
 			);
-			name = "Pods-ZIKIMMapKit_Tests";
-			path = "Target Support Files/Pods-ZIKIMMapKit_Tests";
+			name = MJRefresh;
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		5A314B0D98D6CA5289459E3077DEEACB /* iOS */ = {
+		4EEFE18A17E29930CFF75F2C254B7B61 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */,
+				46C16DAAC2BDE09AB9F8E146221C8B58 /* ZIKIMMapKit */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		664D5A77056B99C1FA96AD293A8B289C /* Assets */ = {
+		548ED2E0F2280AF32B9A545584924830 /* AMap2DMap-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				452EB0C2E8A62F9CC1F0F77C0E53CFFF /* ZIKMap.bundle */,
+				686712B438B884062C37D12F807DB417 /* MAAnnotation.h */,
+				A27DAA35610C8F0A342DE8B5D1112F6B /* MAAnnotationView.h */,
+				135E3EFBDC3496BF80916F63B1DCC2AF /* MACircle.h */,
+				743386B44840B5DF08D28AE938A29041 /* MACircleRenderer.h */,
+				D6C75BEC48403411B6250F49985ED5BA /* MACircleView.h */,
+				6AA552794307789718539128B23E078C /* MAGeodesicPolyline.h */,
+				EE05AC1E9CD5BCBF5AAABC235015497F /* MAGeometry.h */,
+				858F7A824DF075153688F17C113E2286 /* MAGroundOverlay.h */,
+				1E1DD624397B2184E7057E9594B65980 /* MAGroundOverlayRenderer.h */,
+				55FA794D29A1C2BB44D9D77C27ADDC6B /* MAGroundOverlayView.h */,
+				07A896291687B240A9C8CBAF0C43051F /* MAHeatMapTileOverlay.h */,
+				B7A5808B7E7A6976226E0E4EC623FC2D /* MAMapKit.h */,
+				C5FF2F9CBE020FA332D2E7D13E022AB3 /* MAMapVersion.h */,
+				8CC90FAFE78E10593D8AA422962C4EBE /* MAMapView.h */,
+				6D194E4368FC6BA3DBE498082FB89A79 /* MAMultiColoredPolylineRenderer.h */,
+				AE10B4D59D0704EF31B5F9A9B2D98ADE /* MAMultiPoint.h */,
+				40918527C6F1D8E491F0357EEB0323E9 /* MAMultiPolyline.h */,
+				CFA6F273CD9830726C6541ABBD445DCE /* MAOverlay.h */,
+				D31D4A51E8131AA8544C9477D165CF3F /* MAOverlayPathRenderer.h */,
+				6CAA5399C43F85095F421251353DC065 /* MAOverlayPathView.h */,
+				4A826BAAEBC1B83D90E6520B18773F0D /* MAOverlayRenderer.h */,
+				A549C2AD962C58D35B8B71A61482CA61 /* MAOverlayView.h */,
+				2E738E9273DAD1FBE1A3BD9DE2656594 /* MAPinAnnotationView.h */,
+				61AA1B5AFE53C8C299FF91F5E8B69357 /* MAPointAnnotation.h */,
+				458B0A7DF15C97E79C6C97A240F9CF88 /* MAPolygon.h */,
+				5B499B073A81BB05D7805FC2B7262AE7 /* MAPolygonRenderer.h */,
+				FB76CD538F73769B6711CD3EF002171F /* MAPolygonView.h */,
+				4DAEB11DE6C0055E069EB3D7D1634066 /* MAPolyline.h */,
+				E239FE092C575F74BE03DB79DCD4865F /* MAPolylineRenderer.h */,
+				1A7C8CD474339ABE908E3536669E37F9 /* MAPolylineView.h */,
+				8FDF55D8C5A4A77E5BBBDF2650FB796D /* MAShape.h */,
+				38269F27B8D9FC9759C610931AE17A97 /* MATileOverlay.h */,
+				29A5EEA467599E55E97199EC854CCA27 /* MATileOverlayRenderer.h */,
+				45B21D65C0C3FF92650F3AA293BE6D0C /* MATileOverlayView.h */,
+				AF3C632E6D759AF7BF658F27809D2BCD /* MAUserLocation.h */,
+				15F578A3496A823919619A403B1F7D73 /* MAUserLocationRepresentation.h */,
+				92A134F04FAC7ABB49F436A7DC845FEC /* Frameworks */,
+				58F4B5675093B17D07033458A086F802 /* Resources */,
 			);
-			name = Assets;
-			path = Assets;
+			name = "AMap2DMap-NO-IDFA";
+			path = "AMap2DMap-NO-IDFA";
 			sourceTree = "<group>";
 		};
-		69487BAF8111D70B23E5A015396FA227 /* Support Files */ = {
+		58F4B5675093B17D07033458A086F802 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FC579B3D6FEEF040AA61CB26AE06F7E4 /* Info.plist */,
-				C421F2B079FCD1A3B004EA0F0D7DF03B /* MJRefresh.modulemap */,
-				112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */,
-				8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */,
-				BA829D3CACE8FA04D5B02616BD80F978 /* MJRefresh-prefix.pch */,
-				865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */,
+				FFC7655C3EF04655551E0303A91BF559 /* AMap.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MJRefresh";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		75E3BE6E79F70E5B0537A69D791FE8C5 /* ZIKIMMapKit */ = {
+		5A944CA1BF3D54C9A1DD1384CF22A90D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				18B93E3F702C853A8BB9A2C1B3B885B1 /* Resources */,
-				C7086DB8EBD454C46B95EC71C126F70C /* Support Files */,
-				A59C042F9F91796D703BC2FA6A80437D /* ZIKIMMapKit */,
+				3AEB2F594150493F10B9586876C0CD91 /* Pods-ZIKIMMapKit_Example */,
+				F66FAB6FB3D1DA2A96050A49FD57517A /* Pods-ZIKIMMapKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B7C33FFAAC34E1793D98A5E586631B1 /* AMapLocation-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				54C7675C9C1915BB36C56DECE3C2639D /* AMapGeoFenceError.h */,
+				BB3061495D035B930A9D0F23E04B48A7 /* AMapGeoFenceManager.h */,
+				656938FFF85ECA0C909C5B703EDB9D14 /* AMapGeoFenceRegionObj.h */,
+				20287F34FAC6A6DDDF30E76D346A613E /* AMapLocationCommonObj.h */,
+				2B1B980044998B7050196E8E29491C6D /* AMapLocationKit.h */,
+				C7812E164F789FE8C47150F217130373 /* AMapLocationManager.h */,
+				89FCA89DB7ADA24E0145207C40B994A7 /* AMapLocationRegionObj.h */,
+				3D8D61A34C537DA29CDC79D9C2A45AE9 /* AMapLocationVersion.h */,
+				14013C503848ACD16ADBC22FB0634DEA /* Frameworks */,
+			);
+			name = "AMapLocation-NO-IDFA";
+			path = "AMapLocation-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		5ED1158237B733ACF66E76E6D1261AB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F218EF55AB6EE0169F538CBA08A29064 /* ZIKMapHalfTextViewController.h */,
+				A9DE6BFF4A88C9D8B6F1AAF1F251F6F8 /* ZIKMapHalfTextViewController.m */,
+				65638B39290106B6592AAB322B2269A8 /* ZIKMapTextTableViewCell.h */,
+				4FD6C726EC73121C4996FC1109AC4871 /* ZIKMapTextTableViewCell.m */,
+				11C849D0161ADA4C51E5E683B5C61AB7 /* ZIKMapTextViewController.h */,
+				7B95D8B4FA8B731926C426FF2FA29BE2 /* ZIKMapTextViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6D3BDC74E693A38F06CD82DBAF5F7644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				548ED2E0F2280AF32B9A545584924830 /* AMap2DMap-NO-IDFA */,
+				30197A50A90CA00AF94C0EE29FEE7A69 /* AMapFoundation-NO-IDFA */,
+				5B7C33FFAAC34E1793D98A5E586631B1 /* AMapLocation-NO-IDFA */,
+				317FC0EF7D4950FFB5289C8F0987C9E8 /* AMapSearch-NO-IDFA */,
+				4DE9083C26D01CE0A3235F169BB458DE /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C618811ED170EED247F3AE36591CE54 /* ZIKIMMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				5ED1158237B733ACF66E76E6D1261AB3 /* Classes */,
 			);
 			name = ZIKIMMapKit;
-			path = ../..;
+			path = ZIKIMMapKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -278,148 +547,124 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EAFA122829E97438C073C9B0725C809C /* Development Pods */,
-				FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */,
-				F68AF7B73A597B0E264850273A08878B /* Pods */,
-				EF6983D1C2B51C311FE3B20E4C60F517 /* Products */,
-				FA8F120B953ACA0805A7832693858E72 /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6D3BDC74E693A38F06CD82DBAF5F7644 /* Pods */,
+				F7C44154E132DEE20B2416B8AFF93826 /* Products */,
+				5A944CA1BF3D54C9A1DD1384CF22A90D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A324DC7CD7DF4F1790CFE002E844CC62 /* Pods-ZIKIMMapKit_Example */ = {
+		92A134F04FAC7ABB49F436A7DC845FEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6B8541DA1A07E5DD0331E35C3BB3EB5 /* Info.plist */,
-				676B7DFF6D96663AD8B065DC065958F2 /* Pods-ZIKIMMapKit_Example.modulemap */,
-				800DE33A4020C83F54878F39961E1E55 /* Pods-ZIKIMMapKit_Example-acknowledgements.markdown */,
-				4F1F139F3726A40865F7BF5BD430AF59 /* Pods-ZIKIMMapKit_Example-acknowledgements.plist */,
-				AA9134365A6E6BDEC09825E722A69F1F /* Pods-ZIKIMMapKit_Example-dummy.m */,
-				9A908DB76D24B68FAF0D37B1559FF87A /* Pods-ZIKIMMapKit_Example-frameworks.sh */,
-				521AA0FA1FD426953708B6775829FD37 /* Pods-ZIKIMMapKit_Example-resources.sh */,
-				7D3878782A33C65ACEBD8C3B36E8CF2B /* Pods-ZIKIMMapKit_Example-umbrella.h */,
-				6316C89A142360CC40DAACE16A31C1AE /* Pods-ZIKIMMapKit_Example.debug.xcconfig */,
-				83316CE7C863EBD615DE407C37027DB8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */,
+				D95DE19A4DE521EA3D5DEFB5E20B8197 /* MAMapKit.framework */,
 			);
-			name = "Pods-ZIKIMMapKit_Example";
-			path = "Target Support Files/Pods-ZIKIMMapKit_Example";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A59C042F9F91796D703BC2FA6A80437D /* ZIKIMMapKit */ = {
+		A63FD7B886967050890FCDD82CD5B0A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F080C49AC8DDDD1882A0FFD5EB9DAC5B /* Classes */,
+				5B18981F5A78C01F06D3E5D3F793EF5B /* MJRefresh.xcconfig */,
+				BF5AEBA2504ABE9CA04069556113DEF0 /* MJRefresh-dummy.m */,
+				75729EE2B871A42DA0DD90CB1D783AE4 /* MJRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		A6E1E5BFC160EF019D58ECAE3BA0AC32 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				64A95CE1C0E8CE5B5D66BE9A13C0593C /* en.lproj */,
+				2FDED8D83133496E0B8D5672DD8179FD /* loc@2x.png */,
+				47173E67EB63BC29DB00847F824B882E /* redPin.png */,
+				E70B8C4705875CD658F7BCC056BAFB0C /* redPin@2x.png */,
+				07B58A56DD4EF36B4E23A646D9CE7F3E /* redPin@3x.png */,
+				45255D08698486FF06EFEE01C2D75C21 /* zh-Hans.lproj */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A781DD088BA2AE191896D7B73B006E70 /* ZIKIMMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				4EEFE18A17E29930CFF75F2C254B7B61 /* Resources */,
+				E62B509892A6861DF94DFEA46B4892FF /* Support Files */,
+				7C618811ED170EED247F3AE36591CE54 /* ZIKIMMapKit */,
 			);
 			name = ZIKIMMapKit;
-			path = ZIKIMMapKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		C7086DB8EBD454C46B95EC71C126F70C /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AC6F2C10DA3B618968D1854F23AE335 /* Info.plist */,
-				1FD939C6F69CFC21AE80F138C71B08F1 /* ResourceBundle-ZIKIMMapKit-Info.plist */,
-				85ED2160C36C741E0C243E7EF0D8ED71 /* ZIKIMMapKit.modulemap */,
-				F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */,
-				D24709C4029030159C7A37208C4E5193 /* ZIKIMMapKit-dummy.m */,
-				2FDCC44A86B2B0865A2C286B1D531B1E /* ZIKIMMapKit-prefix.pch */,
-				2768E86175D3C9835D9AB06699052F18 /* ZIKIMMapKit-umbrella.h */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E62B509892A6861DF94DFEA46B4892FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC36F843EB42BCC690EB78E4BF0515D2 /* ResourceBundle-ZIKIMMapKit-Info.plist */,
+				4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */,
+				C55CDB4BB2C6D6505C543E8025825A1E /* ZIKIMMapKit-dummy.m */,
+				4D4741E253C04FA7BC467DC88EE3E36E /* ZIKIMMapKit-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZIKIMMapKit";
 			sourceTree = "<group>";
 		};
-		C959FC108B95C5878EA7EAF5DAEB4C6E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D9D6E4C180569EF89313C2F367D7508C /* MJRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */,
-				00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */,
-				AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */,
-				98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */,
-				30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */,
-				E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */,
-				EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */,
-				C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */,
-				2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */,
-				E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */,
-				19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */,
-				BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */,
-				040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */,
-				59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */,
-				CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */,
-				0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */,
-				B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */,
-				34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */,
-				0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */,
-				AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */,
-				E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */,
-				B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */,
-				A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */,
-				C959FC108B95C5878EA7EAF5DAEB4C6E /* Resources */,
-				69487BAF8111D70B23E5A015396FA227 /* Support Files */,
-			);
-			name = MJRefresh;
-			path = MJRefresh;
-			sourceTree = "<group>";
-		};
 		EAFA122829E97438C073C9B0725C809C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75E3BE6E79F70E5B0537A69D791FE8C5 /* ZIKIMMapKit */,
+				A781DD088BA2AE191896D7B73B006E70 /* ZIKIMMapKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EF6983D1C2B51C311FE3B20E4C60F517 /* Products */ = {
+		F66FAB6FB3D1DA2A96050A49FD57517A /* Pods-ZIKIMMapKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5EB80A72DD26921302799888028BE5BC /* MJRefresh.framework */,
-				A649E7576AB788DEB5B9E81490F431E4 /* Pods_ZIKIMMapKit_Example.framework */,
-				E73E4F754EFC99FD8F862E28E1E14CEB /* Pods_ZIKIMMapKit_Tests.framework */,
-				5960E74732D454031348BEF80EBAA315 /* ZIKIMMapKit.bundle */,
-				685B5CE26AF4A205039DD7B4F67262A1 /* ZIKIMMapKit.framework */,
+				235A94998E4E04F10D92EACF0C3F4A74 /* Pods-ZIKIMMapKit_Tests-acknowledgements.markdown */,
+				037C65C1F9C642E2540E4348A21F121A /* Pods-ZIKIMMapKit_Tests-acknowledgements.plist */,
+				518940991FD46D889C8DF0232BA74B39 /* Pods-ZIKIMMapKit_Tests-dummy.m */,
+				79EB299C26E2B4E5A8D233D145D17D7D /* Pods-ZIKIMMapKit_Tests-frameworks.sh */,
+				83190F0C9AA719CDA5CBA04097C97E49 /* Pods-ZIKIMMapKit_Tests-resources.sh */,
+				8D50043F09474AB400F30AF41B373FAB /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */,
+				8D74AE0373C496B95425A55157CD6D09 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZIKIMMapKit_Tests";
+			path = "Target Support Files/Pods-ZIKIMMapKit_Tests";
+			sourceTree = "<group>";
+		};
+		F7C44154E132DEE20B2416B8AFF93826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75246FBC6EEFF25E0453A7FCE47F1AF0 /* libMJRefresh.a */,
+				AC011438689DDEBE185E46E4AF58073A /* libPods-ZIKIMMapKit_Example.a */,
+				F71BD1961F1215714DCECCAFAB615E24 /* libPods-ZIKIMMapKit_Tests.a */,
+				A786F90E2E0FF4A29A37EEFF159D9451 /* libZIKIMMapKit.a */,
+				FEC69DD7D6A528B12AA624434BFA92AE /* ZIKIMMapKit.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F080C49AC8DDDD1882A0FFD5EB9DAC5B /* Classes */ = {
+		FF78C33F4318239378B4FA8EC7FE782C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5AB488D8C88EC6F31CB3F90D4F3CB98 /* ZIKMapTextViewController.h */,
-				E3F649CD76BEF66A7A79FF5FB3062439 /* ZIKMapTextViewController.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F68AF7B73A597B0E264850273A08878B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D9D6E4C180569EF89313C2F367D7508C /* MJRefresh */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FA8F120B953ACA0805A7832693858E72 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A324DC7CD7DF4F1790CFE002E844CC62 /* Pods-ZIKIMMapKit_Example */,
-				58BDD956819F13156CCBE5906A6645C8 /* Pods-ZIKIMMapKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */,
-				5A314B0D98D6CA5289459E3077DEEACB /* iOS */,
+				E79843ECA063ADD069E3B952A7747EB9 /* AMapSearchKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -427,135 +672,71 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48FBF02BA42542EF9D03A0AF8CD94B4B /* Headers */ = {
+		89750DD97377BC9CDC15022C810ACAC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				071B049F659B38053E77AA87E7873B60 /* Pods-ZIKIMMapKit_Tests-umbrella.h in Headers */,
+				52BDB715C9F3049948DE848BAA2C06ED /* ZIKMapHalfTextViewController.h in Headers */,
+				EF1430B7BDC0663F9A9AD31AD3D0DE54 /* ZIKMapTextTableViewCell.h in Headers */,
+				4A8C60E241C6EFE6FF5F670F35285431 /* ZIKMapTextViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B306D898CCD772586DE85426AE518CE6 /* Headers */ = {
+		BCF57EC6DF4DD2736C7C216D9CEB9428 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523FCD23300B5BFF76E80C1403E0F637 /* ZIKIMMapKit-umbrella.h in Headers */,
-				CE8AF2F110226F0CBEE6E3B8F50555E1 /* ZIKMapTextViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8ADC967C8AD2F83A989541A24B40323 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B600DF7051E2B2B5B85076F0B35B90E3 /* Pods-ZIKIMMapKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6DF9B27B59909CC767D5DE6EE43F98F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0769460965CCFD4961C85D8608E333C /* MJRefresh-umbrella.h in Headers */,
-				EAF4E573258633FF8E2056F9A057C61B /* MJRefresh.h in Headers */,
-				479A36E661A786791683FA8777508E6A /* MJRefreshComponent.h in Headers */,
-				52868D47B14D405B8C41BE4F03A6950D /* MJRefreshConst.h in Headers */,
-				6C391F362C71ED493BB28CEF21763F45 /* MJRefreshFooter.h in Headers */,
-				CB0D0DF431CA701AEBF9E1187095227E /* MJRefreshGifFooter.h in Headers */,
-				042CE6A8CECD6F405C6ED0BD7F302CE1 /* MJRefreshGifHeader.h in Headers */,
-				796E6B58A39DC61B26E16A029D136477 /* MJRefreshHeader.h in Headers */,
-				EC4D7884C67EF63CED88993EAF2E1F9D /* MJRefreshLegendFooter.h in Headers */,
-				C5E35FEBAF7E4605D61E954C3E02A3AA /* MJRefreshLegendHeader.h in Headers */,
-				144B08F33CAAB244B9826C9D2BB6348A /* UIScrollView+MJExtension.h in Headers */,
-				1A478FE7F1AA5226B976C3768CD7C888 /* UIScrollView+MJRefresh.h in Headers */,
-				7E9027BC84A08C58E43F4D095D72E739 /* UIView+MJExtension.h in Headers */,
+				1615F44139A14CEC7C82D546361B0609 /* MJRefresh.h in Headers */,
+				7B2ED9E571E4E51168F7157F2EAE6199 /* MJRefreshAutoFooter.h in Headers */,
+				0A3A685BD9A56E789E9EA83A1FECBBAE /* MJRefreshAutoGifFooter.h in Headers */,
+				85BBFB5F0008B8304BF840AA6449C61F /* MJRefreshAutoNormalFooter.h in Headers */,
+				FF1B68BB2C26B49D0DB408D77BF73D8C /* MJRefreshAutoStateFooter.h in Headers */,
+				ADD69BFB0A0F3F7B7E162E410A67CF05 /* MJRefreshBackFooter.h in Headers */,
+				ED89F1A48BA44D203A2C4B9C6F53AC0B /* MJRefreshBackGifFooter.h in Headers */,
+				C16FDBA2BC10E28B8D59DE5CCF4758EC /* MJRefreshBackNormalFooter.h in Headers */,
+				59CF9E95314C2B98CD4E53BA7FE282E4 /* MJRefreshBackStateFooter.h in Headers */,
+				88290D5C90C12F48F09E6AC463737F1F /* MJRefreshComponent.h in Headers */,
+				925EBB6CDAA2E17791E1DDCDA62A3375 /* MJRefreshConst.h in Headers */,
+				99364D96200D03FC3229E6A956E10ADB /* MJRefreshFooter.h in Headers */,
+				95F90F972DFDFBC3E012F069A6E24C33 /* MJRefreshGifHeader.h in Headers */,
+				2AC677C7D32F72030B81CA00F24F65FD /* MJRefreshHeader.h in Headers */,
+				9DDC888AA9FE29CD96DCB574AF125142 /* MJRefreshNormalHeader.h in Headers */,
+				597CEE76562EB4D948504B07655C54D6 /* MJRefreshStateHeader.h in Headers */,
+				2B20A7A457F69EA4CFEC2DB9CFB37FC9 /* NSBundle+MJRefresh.h in Headers */,
+				A67059B6451EE4D4C8827F52621E54A3 /* UIScrollView+MJExtension.h in Headers */,
+				D91A44E187477241B893D258E3F67A58 /* UIScrollView+MJRefresh.h in Headers */,
+				F88580E07538A44A13193CA98E37ADCA /* UIView+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		346CFEF3267428B94A675334C8BC2C8E /* Pods-ZIKIMMapKit_Example */ = {
+		0152EBB274D2ECC180F364F1DBA5BB4D /* Pods-ZIKIMMapKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C158CC5DA28EA9E2E4CB5604CE9D5008 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Example" */;
+			buildConfigurationList = 4C3FF5DB01D4DB8FF2A25E900B6BF057 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Example" */;
 			buildPhases = (
-				A9D875619E5A6F81E4A8D275D5A1FD41 /* Sources */,
-				A3B8DF5E7F0130E98EFFDFE2FDEAAAB8 /* Frameworks */,
-				B8ADC967C8AD2F83A989541A24B40323 /* Headers */,
+				D214B3F9941FE12D2468C950A581D6AA /* Sources */,
+				4E5DC8C2744828C26D585DCDCD4EF1DF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				693BC444A2CC95F480C4A63E92FE9FCB /* PBXTargetDependency */,
-				4F66E8871A7BCAD626E600F8C646C385 /* PBXTargetDependency */,
+				FAD8333A846F2DADD3E7374AD6C5AD34 /* PBXTargetDependency */,
+				01F7A4537591CEB1E3305B73BB58894C /* PBXTargetDependency */,
 			);
 			name = "Pods-ZIKIMMapKit_Example";
 			productName = "Pods-ZIKIMMapKit_Example";
-			productReference = A649E7576AB788DEB5B9E81490F431E4 /* Pods_ZIKIMMapKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = AC011438689DDEBE185E46E4AF58073A /* libPods-ZIKIMMapKit_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */ = {
+		03A336F54D6F3AF0DFAFBEF72D11489F /* ZIKIMMapKit-ZIKIMMapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F52F92C545DDEC90E147576860F1FA32 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildConfigurationList = CB1EA618E8680F5D31E4BE52190FCBCF /* Build configuration list for PBXNativeTarget "ZIKIMMapKit-ZIKIMMapKit" */;
 			buildPhases = (
-				01602B3E2F394F1328F1F817F3802D71 /* Sources */,
-				C29877CB761B8EEBF73037D29AE262FB /* Frameworks */,
-				E6DF9B27B59909CC767D5DE6EE43F98F /* Headers */,
-				990F48421A51E7E5417E7501B1CB5981 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MJRefresh;
-			productName = MJRefresh;
-			productReference = 5EB80A72DD26921302799888028BE5BC /* MJRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		75ABD56C152800D99D6A58DC67C8935B /* ZIKIMMapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F73AE2DBB4E739863DB62B809764FB90 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit" */;
-			buildPhases = (
-				41313A8DB5835CD76817089CECE6FAE2 /* Sources */,
-				390DC7435BA643342B6323CE58012903 /* Frameworks */,
-				2A6783FBFDAE978DA5BD1AF16B5CC958 /* Resources */,
-				B306D898CCD772586DE85426AE518CE6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AB92ED6CF7B402786BC07DCB5A9B586 /* PBXTargetDependency */,
-				938975B0F3ABAEA8F7F65688875D9371 /* PBXTargetDependency */,
-			);
-			name = ZIKIMMapKit;
-			productName = ZIKIMMapKit;
-			productReference = 685B5CE26AF4A205039DD7B4F67262A1 /* ZIKIMMapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		988A2B11A6DBB4B7E7F72B62B5D20E73 /* Pods-ZIKIMMapKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC13EF24CB509BD3D6A68FDAD6B4DB52 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Tests" */;
-			buildPhases = (
-				5E8DB6593BB42A83AA131F469054AE0F /* Sources */,
-				8FEAF9C70A6B31C2EE2588AD3C5C62E5 /* Frameworks */,
-				48FBF02BA42542EF9D03A0AF8CD94B4B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ZIKIMMapKit_Tests";
-			productName = "Pods-ZIKIMMapKit_Tests";
-			productReference = E73E4F754EFC99FD8F862E28E1E14CEB /* Pods_ZIKIMMapKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FB7E017076DF3D918E08454F37DB4AF3 /* ZIKIMMapKit-ZIKIMMapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE362F0B70520E98CF5ACFC5E10B1D81 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit-ZIKIMMapKit" */;
-			buildPhases = (
-				E20B78B5F922DFBBDE2934D8C3221F8D /* Sources */,
-				A8F5D9578145C501B710B4FBED0D324A /* Frameworks */,
-				F863039FDDD4F9D71AC21D5D082EFAEA /* Resources */,
+				7EF7162CD886A7F9539DCB5A8C67C9ED /* Sources */,
+				82A3AED298CE526D84E37BB24D800A17 /* Frameworks */,
+				531190513DF4529B1C47AB9544C08527 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -563,8 +744,60 @@
 			);
 			name = "ZIKIMMapKit-ZIKIMMapKit";
 			productName = "ZIKIMMapKit-ZIKIMMapKit";
-			productReference = 5960E74732D454031348BEF80EBAA315 /* ZIKIMMapKit.bundle */;
+			productReference = FEC69DD7D6A528B12AA624434BFA92AE /* ZIKIMMapKit.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA3F9D780F0A57E55222615ED55C72 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				B33344124068CA24916553C4E50D541C /* Sources */,
+				E1FFA9BD201F7FCE2311B14D2E5AA8C0 /* Frameworks */,
+				BCF57EC6DF4DD2736C7C216D9CEB9428 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = 75246FBC6EEFF25E0453A7FCE47F1AF0 /* libMJRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5218372D371D083FAB49224AF30EBC66 /* ZIKIMMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5C89EB1E776AF263DF90CD7E868462 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit" */;
+			buildPhases = (
+				C3EC91D2ED651F80D6D039E35158F12B /* Sources */,
+				54144417DE3F91AB8B585BEA05927246 /* Frameworks */,
+				89750DD97377BC9CDC15022C810ACAC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202A371ED5C140DD8AAF9E4EFF16A076 /* PBXTargetDependency */,
+				BAD236022BBB5199B35D831BE5177AA3 /* PBXTargetDependency */,
+			);
+			name = ZIKIMMapKit;
+			productName = ZIKIMMapKit;
+			productReference = A786F90E2E0FF4A29A37EEFF159D9451 /* libZIKIMMapKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B6E731CDB61617FF95BD5F0B9091213 /* Pods-ZIKIMMapKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDCC11F2A5321FC3D4EA70DC5EC5D65 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Tests" */;
+			buildPhases = (
+				8D7A25BB763619FB48C94C8E7A47480C /* Sources */,
+				8CFE654FAF344B5E29FFB5ABD875D241 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZIKIMMapKit_Tests";
+			productName = "Pods-ZIKIMMapKit_Tests";
+			productReference = F71BD1961F1215714DCECCAFAB615E24 /* libPods-ZIKIMMapKit_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -583,210 +816,147 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EF6983D1C2B51C311FE3B20E4C60F517 /* Products */;
+			productRefGroup = F7C44154E132DEE20B2416B8AFF93826 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */,
-				346CFEF3267428B94A675334C8BC2C8E /* Pods-ZIKIMMapKit_Example */,
-				988A2B11A6DBB4B7E7F72B62B5D20E73 /* Pods-ZIKIMMapKit_Tests */,
-				75ABD56C152800D99D6A58DC67C8935B /* ZIKIMMapKit */,
-				FB7E017076DF3D918E08454F37DB4AF3 /* ZIKIMMapKit-ZIKIMMapKit */,
+				04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */,
+				0152EBB274D2ECC180F364F1DBA5BB4D /* Pods-ZIKIMMapKit_Example */,
+				5B6E731CDB61617FF95BD5F0B9091213 /* Pods-ZIKIMMapKit_Tests */,
+				5218372D371D083FAB49224AF30EBC66 /* ZIKIMMapKit */,
+				03A336F54D6F3AF0DFAFBEF72D11489F /* ZIKIMMapKit-ZIKIMMapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A6783FBFDAE978DA5BD1AF16B5CC958 /* Resources */ = {
+		531190513DF4529B1C47AB9544C08527 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4203FD3ED3392C1675F8636827348762 /* ZIKIMMapKit.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		990F48421A51E7E5417E7501B1CB5981 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0A215B275321CA6F1C901060906CAA /* MJRefresh.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F863039FDDD4F9D71AC21D5D082EFAEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A9E73AE267F990EDAA6B10833E9AA05 /* ZIKMap.bundle in Resources */,
+				CEB861F11C8FB6F6817582C23391B227 /* en.lproj in Resources */,
+				62FD17105A0515480570B5B6C182EE48 /* loc@2x.png in Resources */,
+				8F67EA6E3A8336BA94ABB78B103FACFB /* redPin.png in Resources */,
+				DECBE85E1B67EEE35A4AA8E9AE902996 /* redPin@2x.png in Resources */,
+				C102F588101F11B9F5C331AEEACEA848 /* redPin@3x.png in Resources */,
+				E88CF4B87AA93460880407B983C22156 /* zh-Hans.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01602B3E2F394F1328F1F817F3802D71 /* Sources */ = {
+		7EF7162CD886A7F9539DCB5A8C67C9ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9817164E9F6C5B766CFE01FFB67A1EFF /* MJRefresh-dummy.m in Sources */,
-				B8E5E6E4218659D0FB8AAC854CC7D259 /* MJRefreshComponent.m in Sources */,
-				E4517A149F29B4CF25CFA9C13D4876A9 /* MJRefreshConst.m in Sources */,
-				B7650A4A12BDCA18CCAE2E41496E0C0D /* MJRefreshFooter.m in Sources */,
-				B55C101D928BD4836759BB3047A21CB0 /* MJRefreshGifFooter.m in Sources */,
-				56C35D4BCB48F6AC1073D1D4EA6727AE /* MJRefreshGifHeader.m in Sources */,
-				56C0D5442F01D75CAE28C370341D2C68 /* MJRefreshHeader.m in Sources */,
-				D391F2926932C547B22E70C9F6692275 /* MJRefreshLegendFooter.m in Sources */,
-				C9482BEEC7775A47CFD327C20BCF0699 /* MJRefreshLegendHeader.m in Sources */,
-				EC7FC12D0FCB5A33017B70D92E095BF8 /* UIScrollView+MJExtension.m in Sources */,
-				A11882D5320828152C51457CA8E21A18 /* UIScrollView+MJRefresh.m in Sources */,
-				241C440B89CB8EDD564EA0E4C3AB026A /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41313A8DB5835CD76817089CECE6FAE2 /* Sources */ = {
+		8D7A25BB763619FB48C94C8E7A47480C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C109CF10FBC80A6845D290B66B6FCFD7 /* ZIKIMMapKit-dummy.m in Sources */,
-				21755275FFF60A914A6361FE3EFEC456 /* ZIKMapTextViewController.m in Sources */,
+				45568698EB9833DE1416602ABFBB18AE /* Pods-ZIKIMMapKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E8DB6593BB42A83AA131F469054AE0F /* Sources */ = {
+		B33344124068CA24916553C4E50D541C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5440CACCC9EFF5FDAAECE29FD1191A /* Pods-ZIKIMMapKit_Tests-dummy.m in Sources */,
+				C64ADA912DD6E167B4E3C6DB870667C8 /* MJRefresh-dummy.m in Sources */,
+				635F9EFF4A131A00C8F9BE720E78D446 /* MJRefreshAutoFooter.m in Sources */,
+				E7FA008E96CF99E93D2F596722662B83 /* MJRefreshAutoGifFooter.m in Sources */,
+				5000B5AA92F7956AFA56581E82A81407 /* MJRefreshAutoNormalFooter.m in Sources */,
+				1E38527C36D3C3F2D2EEC3CD45533510 /* MJRefreshAutoStateFooter.m in Sources */,
+				BDA7650B1BB999519160ABFE5E089CD3 /* MJRefreshBackFooter.m in Sources */,
+				186ECA7F2B213C7A11A8F871EFD917CE /* MJRefreshBackGifFooter.m in Sources */,
+				268DA924AEA51CCBE7D187332E4841A5 /* MJRefreshBackNormalFooter.m in Sources */,
+				46D931760B10C6FBE8B29D06AAC94228 /* MJRefreshBackStateFooter.m in Sources */,
+				4D12AC4D83DB34A425A171DD383B8134 /* MJRefreshComponent.m in Sources */,
+				FC091A4266DB8F2CED4F0629F8AE59F2 /* MJRefreshConst.m in Sources */,
+				160E962CE69AF99AE0E349571A381C9A /* MJRefreshFooter.m in Sources */,
+				1E2E1AF6F9351E4FEF7F4D58C242A775 /* MJRefreshGifHeader.m in Sources */,
+				9F06B13BAA0376EAD4E125DA78456B3B /* MJRefreshHeader.m in Sources */,
+				6B8E59D8C26F34D72EB14F5769D0DFEC /* MJRefreshNormalHeader.m in Sources */,
+				341A4BCFB7B1E78548ECD00869FE22B3 /* MJRefreshStateHeader.m in Sources */,
+				B7EAF278902A9B25808126F504317845 /* NSBundle+MJRefresh.m in Sources */,
+				F53754CAAB10BB3C954169DE35007A65 /* UIScrollView+MJExtension.m in Sources */,
+				4982F6A38E149A01137311B533591DD5 /* UIScrollView+MJRefresh.m in Sources */,
+				7CE298FC4680B93B3A466613E565BA0B /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D875619E5A6F81E4A8D275D5A1FD41 /* Sources */ = {
+		C3EC91D2ED651F80D6D039E35158F12B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EDEC9324529ADBDFDD6ACEEB0714A1B /* Pods-ZIKIMMapKit_Example-dummy.m in Sources */,
+				FA275ACB522A23A14B57C8E68BAAE9EE /* ZIKIMMapKit-dummy.m in Sources */,
+				D747B37966D809BA7140D0F57D2F2B37 /* ZIKMapHalfTextViewController.m in Sources */,
+				C4E2B35BD416945ABCE8AA148A530132 /* ZIKMapTextTableViewCell.m in Sources */,
+				216E9EAAE8A85894084912972A6D9654 /* ZIKMapTextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E20B78B5F922DFBBDE2934D8C3221F8D /* Sources */ = {
+		D214B3F9941FE12D2468C950A581D6AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4F2CC352F8A6D9D40C04BE890957EB /* Pods-ZIKIMMapKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F66E8871A7BCAD626E600F8C646C385 /* PBXTargetDependency */ = {
+		01F7A4537591CEB1E3305B73BB58894C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZIKIMMapKit;
-			target = 75ABD56C152800D99D6A58DC67C8935B /* ZIKIMMapKit */;
-			targetProxy = 8BAA0A626F2EE3981EA24491C18C4925 /* PBXContainerItemProxy */;
+			target = 5218372D371D083FAB49224AF30EBC66 /* ZIKIMMapKit */;
+			targetProxy = E176E3D5EA84846D283293C44DE9B7D7 /* PBXContainerItemProxy */;
 		};
-		693BC444A2CC95F480C4A63E92FE9FCB /* PBXTargetDependency */ = {
+		202A371ED5C140DD8AAF9E4EFF16A076 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			target = 62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */;
-			targetProxy = A2A5DDC0EAAB4D227453A69C881AAFAE /* PBXContainerItemProxy */;
+			target = 04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */;
+			targetProxy = 7F1D5FE65948197E8B44B8AC858870C2 /* PBXContainerItemProxy */;
 		};
-		8AB92ED6CF7B402786BC07DCB5A9B586 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */;
-			targetProxy = 14C80A541457055DEC38706A029F9504 /* PBXContainerItemProxy */;
-		};
-		938975B0F3ABAEA8F7F65688875D9371 /* PBXTargetDependency */ = {
+		BAD236022BBB5199B35D831BE5177AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZIKIMMapKit-ZIKIMMapKit";
-			target = FB7E017076DF3D918E08454F37DB4AF3 /* ZIKIMMapKit-ZIKIMMapKit */;
-			targetProxy = 35D570DE446F876B0700CE216241099C /* PBXContainerItemProxy */;
+			target = 03A336F54D6F3AF0DFAFBEF72D11489F /* ZIKIMMapKit-ZIKIMMapKit */;
+			targetProxy = F3F460D4E7063ACE6B281FF39B9B6091 /* PBXContainerItemProxy */;
+		};
+		FAD8333A846F2DADD3E7374AD6C5AD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */;
+			targetProxy = B6CCA570CF0B5CBCABF9D46BA4F60601 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04BEB55EFC2685724367A9BD144CB114 /* Debug */ = {
+		2B14B11887182D5C343DD7F87AFE5961 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */;
+			baseConfigurationReference = 5B18981F5A78C01F06D3E5D3F793EF5B /* MJRefresh.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZIKIMMapKit/ZIKIMMapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZIKIMMapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZIKIMMapKit/ZIKIMMapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ZIKIMMapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0BBB1F63DA17F2B7AC1AA87BFAB90AC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086BF87F0DEC2AD14CC245A54CF2FC87 /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ZIKIMMapKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZIKIMMapKit_Tests/Pods-ZIKIMMapKit_Tests.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZIKIMMapKit_Tests;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		302CBF2581936026AA5D196F41B5EB3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIKIMMapKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ZIKIMMapKit/ResourceBundle-ZIKIMMapKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZIKIMMapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -834,209 +1004,97 @@
 			};
 			name = Release;
 		};
-		3FAC64380BEA9C4CA138A50433D39D01 /* Release */ = {
+		405186D1A95DCF9873465C417DC808C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E057EF70C707607BE3B0D95B33EBD452 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 5B18981F5A78C01F06D3E5D3F793EF5B /* MJRefresh.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ZIKIMMapKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZIKIMMapKit_Tests/Pods-ZIKIMMapKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZIKIMMapKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45D1B753AD01739E2E466C5AFE8FB11A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MJRefresh;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6D5B8C580617BC1280DA9AEE2CF4D720 /* Release */ = {
+		A13B3DE36F201263FEF766EB6FBA1454 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83316CE7C863EBD615DE407C37027DB8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */;
+			baseConfigurationReference = 8D74AE0373C496B95425A55157CD6D09 /* Pods-ZIKIMMapKit_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ZIKIMMapKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZIKIMMapKit_Example/Pods-ZIKIMMapKit_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZIKIMMapKit_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		78CA65531ABB35331FC29BFD6830C7F9 /* Debug */ = {
+		A9B25C28DFD8E816B25A6C35AB460BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6316C89A142360CC40DAACE16A31C1AE /* Pods-ZIKIMMapKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ZIKIMMapKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZIKIMMapKit_Example/Pods-ZIKIMMapKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZIKIMMapKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A3DE5F67D96C3ECA585F178FEB32FDD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C079139CFF2718DE0231A36265E9E46D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ZIKIMMapKit/ZIKIMMapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZIKIMMapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZIKIMMapKit/ZIKIMMapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ZIKIMMapKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AA87C0776B1F1956562F15559E594ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00363B49D4085031394AAE0D05323842 /* Pods-ZIKIMMapKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1086,9 +1144,49 @@
 			};
 			name = Debug;
 		};
-		DB82D3EAF4959638A2813C9EFEFCD35C /* Release */ = {
+		C8371153A62BE25DCAFBFE5EA87F5E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2E41AB5608EBC5BC4FBC563CE776A /* ZIKIMMapKit.xcconfig */;
+			baseConfigurationReference = 4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIKIMMapKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZIKIMMapKit/ResourceBundle-ZIKIMMapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZIKIMMapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CC5F1939574CB65EC6CEC14491AC0593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D50043F09474AB400F30AF41B373FAB /* Pods-ZIKIMMapKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E39224764ACCA2A8A5309C9B828217B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIKIMMapKit";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1103,6 +1201,52 @@
 			};
 			name = Release;
 		};
+		EF736061A60985368B90BE0F0BCFFF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E11AF58916963783980E76E62C79DD8 /* Pods-ZIKIMMapKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F88C3CA238B073C5E9EB677C1E32A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4411E3203DB94B34AB49F88FE3234E63 /* ZIKIMMapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZIKIMMapKit/ZIKIMMapKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1115,47 +1259,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C158CC5DA28EA9E2E4CB5604CE9D5008 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Example" */ = {
+		35FA3F9D780F0A57E55222615ED55C72 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78CA65531ABB35331FC29BFD6830C7F9 /* Debug */,
-				6D5B8C580617BC1280DA9AEE2CF4D720 /* Release */,
+				2B14B11887182D5C343DD7F87AFE5961 /* Debug */,
+				405186D1A95DCF9873465C417DC808C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE362F0B70520E98CF5ACFC5E10B1D81 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit-ZIKIMMapKit" */ = {
+		4C3FF5DB01D4DB8FF2A25E900B6BF057 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				302CBF2581936026AA5D196F41B5EB3E /* Debug */,
-				DB82D3EAF4959638A2813C9EFEFCD35C /* Release */,
+				AA87C0776B1F1956562F15559E594ADC /* Debug */,
+				EF736061A60985368B90BE0F0BCFFF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F52F92C545DDEC90E147576860F1FA32 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+		CB1EA618E8680F5D31E4BE52190FCBCF /* Build configuration list for PBXNativeTarget "ZIKIMMapKit-ZIKIMMapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45D1B753AD01739E2E466C5AFE8FB11A /* Debug */,
-				A3DE5F67D96C3ECA585F178FEB32FDD9 /* Release */,
+				C8371153A62BE25DCAFBFE5EA87F5E73 /* Debug */,
+				E39224764ACCA2A8A5309C9B828217B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F73AE2DBB4E739863DB62B809764FB90 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit" */ = {
+		CC5C89EB1E776AF263DF90CD7E868462 /* Build configuration list for PBXNativeTarget "ZIKIMMapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04BEB55EFC2685724367A9BD144CB114 /* Debug */,
-				C079139CFF2718DE0231A36265E9E46D /* Release */,
+				F88C3CA238B073C5E9EB677C1E32A6FF /* Debug */,
+				A9B25C28DFD8E816B25A6C35AB460BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC13EF24CB509BD3D6A68FDAD6B4DB52 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Tests" */ = {
+		FEDCC11F2A5321FC3D4EA70DC5EC5D65 /* Build configuration list for PBXNativeTarget "Pods-ZIKIMMapKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BBB1F63DA17F2B7AC1AA87BFAB90AC1 /* Debug */,
-				3FAC64380BEA9C4CA138A50433D39D01 /* Release */,
+				CC5F1939574CB65EC6CEC14491AC0593 /* Debug */,
+				A13B3DE36F201263FEF766EB6FBA1454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

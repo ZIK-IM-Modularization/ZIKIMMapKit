@@ -1,7 +1,17 @@
 PODS:
-  - MJRefresh (1.4.7)
+  - AMap2DMap-NO-IDFA (5.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.4.3)
+  - AMapLocation-NO-IDFA (2.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - MJRefresh (3.1.15.1)
   - ZIKIMMapKit (0.1.0):
-    - MJRefresh (~> 1.4.6)
+    - AMap2DMap-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - MJRefresh
 
 DEPENDENCIES:
   - ZIKIMMapKit (from `../`)
@@ -11,9 +21,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
-  ZIKIMMapKit: 031a8ade62296fec47b76a31241ae63fd99b3562
+  AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
+  AMapFoundation-NO-IDFA: b6cbefab250ae8ab2e31aa9bb3dbbb98137cd76f
+  AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
+  AMapSearch-NO-IDFA: 612a92f75ff20544f42d376dfcf3c034da4ad0b6
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  ZIKIMMapKit: dd1c03f830f992f73753d86cef52fe34237f6ab2
 
-PODFILE CHECKSUM: 7e2f0b137c7639217aabfcb2d6bd5e194c5bec5e
+PODFILE CHECKSUM: de8599a3d9bb483d44a5a38df133f760a4d46e7a
 
 COCOAPODS: 1.1.1

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZIKIMMapKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '地图组件(使用高德地图).'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'MJRefresh', '~> 1.4.6'
+
+  #MJ刷新
+  s.dependency 'MJRefresh'
+  #高德地图相关SDK（无IDFA版）
+  s.dependency 'AMapLocation-NO-IDFA'
+  s.dependency 'AMapSearch-NO-IDFA'
+  s.dependency 'AMap2DMap-NO-IDFA'
 end
