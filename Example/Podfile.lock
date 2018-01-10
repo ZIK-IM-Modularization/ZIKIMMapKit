@@ -7,7 +7,7 @@ PODS:
   - AMapSearch-NO-IDFA (5.7.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - MJRefresh (3.1.15.1)
-  - ZIKIMMapKit (0.1.0):
+  - ZIKIMMapKit (0.1.2):
     - AMap2DMap-NO-IDFA
     - AMapLocation-NO-IDFA
     - AMapSearch-NO-IDFA
@@ -26,7 +26,7 @@ SPEC CHECKSUMS:
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
   AMapSearch-NO-IDFA: 612a92f75ff20544f42d376dfcf3c034da4ad0b6
   MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
-  ZIKIMMapKit: dd1c03f830f992f73753d86cef52fe34237f6ab2
+  ZIKIMMapKit: e580aca49a12b3f16615d6f6963bc6e58dfba8d9
 
 PODFILE CHECKSUM: de8599a3d9bb483d44a5a38df133f760a4d46e7a
 

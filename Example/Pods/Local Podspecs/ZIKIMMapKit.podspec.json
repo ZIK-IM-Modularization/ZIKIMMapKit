@@ -1,6 +1,6 @@
 {
   "name": "ZIKIMMapKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "地图组件(使用高德地图).",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZIK-IM-Modularization/ZIKIMMapKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZIK-IM-Modularization/ZIKIMMapKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
